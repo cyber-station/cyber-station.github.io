@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CYBER STATION</title>
+    <title>CYBERSTATION</title>
+    <link rel="icon" type="image/png" href="images/Logo@CYBERSTATION.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Custom CSS */
@@ -49,13 +50,21 @@
         .service-list li {
             margin-bottom: 10px;
         }
+        /* Logo styling */
+        .navbar-brand img {
+            height: 40px; /* Adjust logo height */
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <nav id="navBar" class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#home">Cyber Station</a>
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+            <img src="images/Logo@CYBERSTATION.png" alt="Cyber Station Logo"> <!-- Logo image -->
+            CyberStation
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,7 +81,7 @@
     <!-- Home Section -->
     <section id="home" class="text-light d-flex align-items-center justify-content-center">
         <div class="container">
-            <h2>Welcome to CYBER STATION</h2>
+            <h2>Welcome to CYBERSTATION</h2>
             <p>
                 <em>Empowering Businesses with Cybersecurity & Data Privacy Solutions</em><br>
                 Cyberstation is a Kigali-based consultancy specializing in cybersecurity and data privacy. We are committed to safeguarding your business's digital assets and ensuring compliance with Rwanda's data privacy regulations.
